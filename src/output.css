@@ -373,11 +373,17 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\/img\/Joyulone\.jpg\)\] {
+    background-image: url(/img/Joyulone.jpg);
+  }
   .bg-\[url\(\/img\/jo-yuri-beautiful-blonde-izone-bloomiz-uhdpaper\.com-4K-6\.719\.jpg\)\] {
     background-image: url(/img/jo-yuri-beautiful-blonde-izone-bloomiz-uhdpaper.com-4K-6.719.jpg);
   }
   .bg-\[url\(\/jo-yuri-beautiful-blonde-izone-bloomiz-uhdpaper\.com-4K-6\.719\.jpg\)\] {
     background-image: url(/jo-yuri-beautiful-blonde-izone-bloomiz-uhdpaper.com-4K-6.719.jpg);
+  }
+  .bg-\[url\(img\/Joyulone\.jpg\)\] {
+    background-image: url(img/Joyulone.jpg);
   }
   .bg-\[url\(img\/jo-yuri-beautiful-blonde-izone-bloomiz-uhdpaper\.com-4K-6\.719\.jpg\)\] {
     background-image: url(img/jo-yuri-beautiful-blonde-izone-bloomiz-uhdpaper.com-4K-6.719.jpg);
