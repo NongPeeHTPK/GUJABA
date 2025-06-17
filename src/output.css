@@ -313,6 +313,9 @@
   .bg-\[url\(\'\/src\/img\/joyurione\.jpg\'\)\] {
     background-image: url('/src/img/joyurione.jpg');
   }
+  .bg-\[url\(\'src\/img\/joyurione\.jpg\'\)\] {
+    background-image: url('src/img/joyurione.jpg');
+  }
   .bg-\[url\(\/img\/joyurione\.jpg\)\] {
     background-image: url(/img/joyurione.jpg);
   }
