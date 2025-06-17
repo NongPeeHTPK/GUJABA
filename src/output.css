@@ -310,6 +310,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\/img\/joyurione\.jpg\'\)\] {
+    background-image: url('/img/joyurione.jpg');
+  }
   .bg-\[url\(\'\/src\/img\/joyurione\.jpg\'\)\] {
     background-image: url('/src/img/joyurione.jpg');
   }
