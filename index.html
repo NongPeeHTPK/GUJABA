@@ -14,18 +14,16 @@
   <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
   <body>
     <!-- start navbars -->
-    <nav class="bg-black/75 sticky top-0">
+    <nav class="bg-black/75 sticky z-50 top-0">
       <div class="h-16 flex items-center justify-between px-10 text-white">
         <div class="flex gap-10 items-center">
           <div class="text-2xl">
             <h1>LUMINU</h1>
           </div>
-          <div class="hidden md:flex">
-            <ul class="flex gap-5">
-              <li><a href=""></a>Home</li>
-              <li><a href=""></a>About</li>
-              <li><a href=""></a>Solution</li>
-            </ul>
+          <div class="hidden md:flex gap-5">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Solotion</a>
           </div>
         </div>
         <div>
@@ -167,8 +165,115 @@
     </section>
     <!-- end section1 -->
     <!-- start section2 -->
-    <section class="bg-[url('img/joyurione.jpg')] h-175 bg-cover bg-center">
-
+    <section
+      class="bg-[url('img/joyurione.jpg')] h-175 bg-cover bg-center"
+    ></section>
+    <!-- end section2 -->
+    <!-- start section3 -->
+    <section>
+      <div>
+        <div class="mt-20 mb-20 mx-7">
+          <div class="text-2xl mb-4">
+            <h1>About us</h1>
+          </div>
+          <div class="text-5xl mb-4">
+            <p>
+              This is a space to share more about the business: who's behind it,
+              what it does and what this site has to offer. It’s an opportunity
+              to tell the story behind the business or describe a special
+              service or product it offers.
+            </p>
+          </div>
+          <div class="">
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section3 -->
+    <!-- start section4 -->
+    <section class="bg-zinc-300">
+      <div class="flex w-screen">
+        <div class="max-h-full max-w-1/2 mx-10">
+          <div>
+            <div class="mt-30 mb-50">
+              <div>
+                <div class="text-3xl">
+                  <h1>WHY LUMINU?</h1>
+                </div>
+                <div class="text-5xl">
+                  <h2>Your Privacy is our priority</h2>
+                </div>
+              </div>
+            </div>
+            <div class="text-2xl mb-20">
+              <p>
+                This is the space to introduce the Services section. Briefly
+                describe the types of services offered and highlight any special
+                benefits or features.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="mb-30">
+              <div class="flex gap-5 text-3xl mb-2 text-blue-700">
+                <div>
+                  <h3>01</h3>
+                </div>
+                <div>
+                  <h3>Customer-Centric Focus</h3>
+                </div>
+              </div>
+              <div class="text-2xl">
+                <p>
+                  This is the space to introduce the Services section. Briefly
+                  describe the types of services offered and highlight any
+                  special benefits or features.
+                </p>
+              </div>
+            </div>
+            <div class="mb-30">
+              <div class="flex gap-5 text-3xl mb-2 text-blue-700">
+                <div>
+                  <h3>02</h3>
+                </div>
+                <div>
+                  <h3>Commitment to Security</h3>
+                </div>
+              </div>
+              <div class="text-2xl">
+                <p>
+                  This is the space to introduce the Services section. Briefly
+                  describe the types of services offered and highlight any
+                  special benefits or features.
+                </p>
+              </div>
+            </div>
+            <div class="mb-30">
+              <div class="flex gap-5 text-3xl mb-2 text-blue-700">
+                <div>
+                  <h3>03</h3>
+                </div>
+                <div>
+                  <h3>Transparent and Fair Practices</h3>
+                </div>
+              </div>
+              <div class="text-2xl">
+                <p>
+                  This is the space to introduce the Services section. Briefly
+                  describe the types of services offered and highlight any
+                  special benefits or features.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="max-w-1/2 h-screen sticky top-0">
+          <div class="w-full h-full">
+            <img class="w-full h-full object-center object-cover" src="/src/img/joyurione.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
