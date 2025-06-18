@@ -621,6 +621,11 @@
       margin-inline: calc(var(--spacing) * 10);
     }
   }
+  .lg\:mx-20 {
+    @media (width >= 64rem) {
+      margin-inline: calc(var(--spacing) * 20);
+    }
+  }
   .lg\:mx-50 {
     @media (width >= 64rem) {
       margin-inline: calc(var(--spacing) * 50);
